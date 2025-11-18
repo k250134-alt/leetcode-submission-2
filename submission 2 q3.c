@@ -13,7 +13,7 @@ int remove_duplicates(int num[], int size) {
 }
 int main() {
     int len,i;
-    printf("Enter the  umber of elements you want to enter:\n");
+    printf("Enter the number of elements you want to enter:\n");
     scanf("%d",&len);
     int num[len];
     for(i=0;i<len;i++)
@@ -37,4 +37,5 @@ int main() {
 
     return 0;
 }
+
 
